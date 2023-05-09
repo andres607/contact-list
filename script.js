@@ -18,7 +18,8 @@ function addContact(contact = new Contacts()) {
   console.log(contacts);
 }
 
-addContact(new Contacts(4, "Chris", "Castaño", 3015089658, "Calle 4B #101-58, Medellin"));
+addContact(new Contacts(4, "Chris", "Castaño", 3015089658, "Calle 4B #101-58, Medellin")
+);
   
 
 function deleteContact(id) {
