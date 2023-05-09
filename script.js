@@ -9,3 +9,8 @@ let contacts = [
   new Contacts("CAMILO", "CIFUENTEZ"),
 ];
 
+function addContact(contact = new Contacts()) {
+  contacts.push(contact);
+  console.log(contacts);
+}
+
