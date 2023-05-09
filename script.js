@@ -14,3 +14,12 @@ function addContact(contact = new Contacts()) {
   console.log(contacts);
 }
 
+function deleteContact(id) {
+  contacts.splice(id - 1, 1);
+}
+
+function viewContact() {
+  console.log(contacts);
+  }
+
+  viewContact();
