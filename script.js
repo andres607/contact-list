@@ -25,6 +25,8 @@ function deleteContact(id) {
   contacts.splice(id - 1, 1);
 }
 
+deleteContact(2, contacts);
+
 function viewContact() {
   console.log(contacts);
   }
