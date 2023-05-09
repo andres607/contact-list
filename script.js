@@ -1,6 +1,10 @@
-function Contacts(name, lastname,) {
+function Contacts(id, name, lastname, phone, address) {
+  this.id = id;
   this.name = name;
   this.lastname = lastname;
+  this.phone = phone;
+  this.address = address;
+
 }
 
 let contacts = [
